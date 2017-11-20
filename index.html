@@ -115,25 +115,25 @@
        
       </form>
 
-
-       
        <div id="student" >
 
-          <select name="estudiantes" id="lab2" >
+
+          <!-- <select name="estudiantes" id="lab2" > -->
+
+          <select name="estudiantes" id="lab2" onChange="students()" >
+          
           <option value="" id="nameStudent">Nombre Estudiante</option>
           </select>
-      <div id="container">
-        
-      </div>
-
-      <img src="http://dummyimage.com/162x148.png/ff4444/ffffff" alt="">
-             
-       <h3 class="title2" id="nombreEstudiante">Nombre y Apellido:</h3>
-        <h3 class="title2" id="notasTech">Score Tech:</h3>
-        <h3 class="title2" id="notasHSE">Score HSE:</h3>
-        </div>
       
 
+      <img src="http://dummyimage.com/162x148.png/ff4444/ffffff" alt="">
+
+       <p class="title2" id="nombreEstudiante"></p>
+       <p class="title2" id="activeOrInactive"></p>
+        <h3 class="title2" id="notasTech"></h3>
+        <h3 class="title2" id="notasHSE"></h3>
+        </div>
+      
        <div id="tech">
         <h3><input type="radio" name="tech" value="" checked> Promedio Notas Tech</h3>
          <img  src="assets/images/7notasTech-alumna.jpg" alt="notas tech alumnas laboratoria"></img>  
@@ -141,10 +141,6 @@
         <div id="HSE">
           <h3><input type="radio" name="hse" value="" > Promedio Notas HSE</h3>
          <img  src="assets/images/6notasHSE-alumna.jpg" alt="notas hse alumnas laboratoria"></img>  
-       
-       
-
-    
         
       </section>
 
@@ -153,9 +149,6 @@
       <section id="thirstSection" class="esconder">
 
         <h1 id="title">Profesores</h1>
-        <div>
-          
-        </div>
         <img id="valentina" src="assets/images/fotosProfes/Valentina.jpg" alt="">
         <h3 id="title3">Nombre: VALENTINA</h3>
         <h3>Apellido: SMITH</h3>
